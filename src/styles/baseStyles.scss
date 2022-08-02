@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @apply bg-base-200 h-screen;
+}
+
+$bg-1: #e3e0dd;
+$bg-2: #eee5da;
+
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	overflow: hidden;
+	background: linear-gradient(to bottom right, $bg-1, $bg-2);
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+
+
+@keyframes reveal {
+    0%, 90% {
+		 bottom: -30px;
+	}
+   100% {
+		 bottom: 15px;
+	}
+}
