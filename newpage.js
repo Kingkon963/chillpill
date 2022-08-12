@@ -43,7 +43,7 @@ const addViteConfig = async (content) => {
 ifc.question("Page Name: ", async (pageName) => {
   const pageHTML = `
   <!DOCTYPE html>
-  <html lang="en">
+  <html lang="en" data-theme="emerald">
     <head>
       <meta charset="UTF-8" />
       <link rel="icon" type="icon" href="/fav.ico" />
