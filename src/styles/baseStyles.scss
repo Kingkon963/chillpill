@@ -18,3 +18,28 @@
 body {
   @apply bg-base-200 h-screen;
 }
+
+$bg-1: #e3e0dd;
+$bg-2: #eee5da;
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, $bg-1, $bg-2);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@keyframes reveal {
+  0%,
+  90% {
+    bottom: -30px;
+  }
+  100% {
+    bottom: 15px;
+  }
+}
