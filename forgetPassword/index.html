@@ -2,7 +2,7 @@
 <html lang="en" data-theme="emerald">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="icon" href="/fav.ico" />
+    <link rel="icon" type="icon" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Recovery</title>
   </head>
@@ -18,42 +18,29 @@
             <span class="text-secondary">CHILL</span>
             <span class="text-secondary">PILL</span>
           </h1>
-          <p class="py-6">Start your journey towards a pragmatic and convenient medicare.</p>
+          <p class="py-6 leading-9 tracking-wider font-normal normal-case">
+            A recovery link will be sent to this email if we found this email in our registered user
+            list.
+            <br />
+            Then you'll be able reset your password by clicking that link.
+          </p>
         </div>
         <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div class="card-body">
-            <div class="form-control">
+            <form action="">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email</span>
+                </label>
+                <input type="email" placeholder="email" class="input input-bordered" />
+              </div>
+              <div class="form-control mt-6">
+                <input type="submit" class="btn btn-primary" value="Send Recovery Link" />
+              </div>
               <label class="label">
-                <span class="label-text">BMDC Reg. no</span>
+                <a href="/" class="label-text-alt link link-hover ml-auto">Login</a>
               </label>
-              <input type="text" placeholder="BMDC Reg. no" class="input input-bordered" />
-            </div>
-            <div class="form-control">
-              <label class="label">
-                <span class="label-text">Username</span>
-              </label>
-              <input type="text" placeholder="email / phone" class="input input-bordered" />
-            </div>
-            <div class="form-control">
-              <label class="label">
-                <span class="label-text">Password</span>
-              </label>
-              <input type="password" placeholder="password" class="input input-bordered" />
-            </div>
-            <div class="form-control">
-              <label class="label">
-                <span class="label-text">Confirm Password</span>
-              </label>
-              <input type="password" placeholder="confirm password" class="input input-bordered" />
-            </div>
-            <div class="form-control mt-6">
-              <button class="btn btn-primary">Register</button>
-            </div>
-            <label class="label">
-              <a href="/" class="label-text-alt link link-hover ml-auto"
-                >Already have an account? Login</a
-              >
-            </label>
+            </form>
           </div>
         </div>
       </div>
