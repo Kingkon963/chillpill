@@ -12,6 +12,8 @@ export default defineConfig({
         main: resolve(__DIR__, "index.html"),
         register: resolve(__DIR__, "register/index.html"),
         dashboard: resolve(__DIR__, "dashboard/index.html"),
+        forgetPassword: resolve(__DIR__, "forgetPassword/index.html"),
+        // DON'T REMOVE THIS COMMENT! IT IS USED BY newpage SCRIPT
       },
     },
   },
