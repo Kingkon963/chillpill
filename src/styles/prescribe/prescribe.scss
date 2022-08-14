@@ -1,5 +1,14 @@
+@import "@styles/baseConfig";
+@import "@styles/baseStyles";
 
-  @import "@styles/baseConfig";
-  @import "@styles/baseStyles";
+.prescribe {
+}
 
-  .prescribe {}
+@layer components {
+  .search-dropdown {
+    @apply bg-white mt-1 rounded-md absolute top-full w-full;
+    &__item {
+      @apply py-2 px-5 border-b rounded-md hover:bg-base-300 hover:cursor-pointer;
+    }
+  }
+}
