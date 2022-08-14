@@ -26,6 +26,14 @@ body {
   box-sizing: border-box;
 }
 
+.navbar {
+  @apply max-w-screen-xl mx-auto xl:rounded-xl;
+}
+
+.container {
+  @apply max-w-screen-xl mx-auto p-7;
+}
+
 @keyframes reveal {
   0%,
   90% {
