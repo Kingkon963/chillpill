@@ -6,7 +6,7 @@ const __fileName = fileURLToPath(import.meta.url);
 const __DIR__ = dirname(__fileName);
 
 export default defineConfig({
-  // base: "/chillpill",
+  base: "/chillpill",
   build: {
     rollupOptions: {
       input: {
