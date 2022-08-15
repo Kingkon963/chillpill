@@ -22,6 +22,7 @@ Alpine.store("prescription", {
     };
   },
   addMedicine() {
+    if (this.currMed.name === "") return;
     this.medicines.push({ ...this.currMed, id: this.medicines.length + 1 });
     this.resetCurrMed();
   },
