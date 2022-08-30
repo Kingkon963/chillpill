@@ -1,0 +1,13 @@
+@import "@styles/baseStyles.scss";
+
+@layer components {
+  .heading {
+    @apply my-5;
+    &__text {
+      @apply text-3xl mb-1 font-bold;
+    }
+    &__underline {
+      @apply border-primary-content border border-dashed w-full;
+    }
+  }
+}
